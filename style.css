@@ -1,0 +1,239 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+   box-sizing:border-box;
+}
+
+
+h1,h2,h3,p {
+   margin:0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 200px;
+background-color:#1F2937;
+}
+
+
+.logo {
+ display: flex;
+ color: #F9FAF8;
+ font-size: 24px;
+}
+
+.nav {
+display: flex;
+gap: 20px;
+}
+
+.nav a {
+font-size: 18px;
+color: #E5E7EB;
+text-decoration: none;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px 200px;
+background-color: #1F2937;
+gap: 98px;
+padding-bottom: 60px;
+}
+
+.hero-left {
+max-width: 500px;
+}
+
+.hero-left h1 {
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;
+}
+
+.hero-left p {
+margin: 10px 0;
+font-size:18px;
+color:#E5E7EB;
+}
+
+.hero-left button {
+background-color: #3882F6;
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 8px;
+font-weight: bold;
+}
+
+.hero-right {
+width: 500px;
+height: 250px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:#848689;
+color:white;
+}
+
+
+
+/* =========================
+   INFORMATION SECTION
+========================= */
+
+.information {
+   text-align: center;
+   padding: 40px 200px;
+   padding-bottom: 100px;
+}
+
+.information h2 {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+   padding-bottom: 40px;
+}
+
+.cards-container {
+display: flex;
+justify-content: space-between;
+gap: 40px;
+}
+
+.card {
+max-width: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.box {
+border: 5px solid #3882f6;
+border-radius:15px;
+height: 200px;
+width: 200px;
+}
+
+.card p {
+   width: 150px;
+   font-size: 18px;
+   text-align: center;
+}
+
+
+/* =========================
+   QUOTE SECTION
+========================= */
+
+.quote-section {
+   background-color: #e5e7eb;
+   padding: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.quote-container {
+   display: flex;
+   flex-direction: column;
+   width: 800px;
+}
+
+.quote {
+   margin: 0;
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 300;
+   font-style: italic;
+}
+
+.author {
+   margin: 0;
+   text-align:right;
+   font-size:30px;
+   font-weight:bold;
+}
+
+
+/* =========================
+   CTA SECTION
+========================= */
+
+.cta-section {
+padding:80px 200px;
+}
+
+.cta-container {
+background-color:#3882F6;
+border-radius:10px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:40px;
+}
+
+.cta-text {
+color:white;
+margin: 5px 0 0 0;
+}
+
+.cta-text h3 {
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0;
+}
+   
+
+.cta-button {
+background-color:#3882F6;
+color:white;
+border:2px solid white;
+
+padding:10px 30px;
+border-radius:8px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+display:flex;
+height: 100px;
+color: #f9faf8;
+justify-content: center;
+align-items: center;
+margin-top: auto;
+background-color:#1F2937;
+}
+
+
+
+
+
+
+
